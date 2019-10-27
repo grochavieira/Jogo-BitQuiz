@@ -1,0 +1,134 @@
+@font-face {
+     font-family: silkscreen;
+     src: url('../_fonts/slkscr.ttf');
+}
+
+body{
+
+	font-family: "silkscreen", sans-serif;
+	font-size: 20px;
+	color: white;
+	background-image: url("../_imagens/fundo.gif");
+	background-size: 100%;
+
+
+}
+
+div#titulo{
+
+	width: 550px;
+	border-bottom-width: 2px;
+	border-bottom-color: white;
+	border-bottom-style: solid;
+
+}
+
+div#cabeca{
+
+	width: 550px;
+	
+	border-bottom-width: 2px;
+	border-bottom-color: white;
+	border-bottom-style: solid;
+
+}
+
+div#cabeca table a{
+
+	font-family: "silkscreen", sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	margin: 15px;
+
+}
+
+div#total{
+
+	width: 700px;
+	height: 510px;
+	
+	background-color: rgba(0,0,0,0.95);
+	border-width: 2px;
+	border-color: white;
+	border-style: solid;
+
+}
+
+div#corpo{
+
+	width: 500px;
+	height: 300px;
+	
+	margin: 5px;
+
+}
+
+div#pe{
+
+	width: 550px;
+	border-top-width: 2px;
+	border-top-color: white;
+	border-top-style: solid;
+
+}
+
+div#corpo canvas{
+
+
+	width: 100%;
+	height: 100%;
+
+}
+
+p.tam{
+
+	font-size: 1px;
+	text-align: right;	
+
+}
+
+p.texto{
+
+	text-align: justify;	
+
+}
+
+p.texto2{
+
+	text-align: center;	
+
+}
+
+
+div#desenvolvedores{
+
+	width: 500px;
+	height: 65px;
+	background-color: rgba(255,255,255,0.4);
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	color: black;
+
+}
+
+div#desenvolvedores p{
+
+	margin: 0px;
+
+}
+
+div#corpo img:hover{
+
+
+
+	transform: scale(4.3);
+
+
+}
+
+p#exp{
+
+	font-size: 12px;
+}

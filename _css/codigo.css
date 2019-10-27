@@ -1,0 +1,89 @@
+@font-face {
+    font-family: silkscreen;
+    src: url('../_fonts/slkscr.ttf');
+}
+
+body{
+
+    font-family: "silkscreen", sans-serif;
+    font-size: 20px;
+    color: white;
+    background-image: url("../_imagens/fundo.gif");
+    background-size: 100%;
+
+
+}
+
+div#titulo{
+
+    width: 550px;
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+
+}
+
+div#cabeca{
+
+    width: 550px;
+
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+
+}
+
+div#cabeca table a{
+
+    font-family: "silkscreen", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+
+}
+
+div#total{
+
+    width: 700px;
+
+
+    background-color: rgba(0,0,0,0.95);
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+
+}
+
+
+
+div#pe{
+
+    width: 550px;
+    border-top-width: 2px;
+    border-top-color: white;
+    border-top-style: solid;
+
+}
+
+
+
+p.tam{
+
+    font-size: 1px;
+    text-align: right;
+
+}
+
+p.texto{
+
+    text-align: justify;
+
+}
+
+p.texto2{
+
+    text-align: center;
+
+}
+
